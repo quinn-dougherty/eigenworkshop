@@ -11,6 +11,6 @@ video.
 you:$ docker build -t eigenworkshop .
 you:$ docker run -it -v $(pwd):/manim/ eigenworkshop
 root@container:# cd manim
-root@container:# manim ltrans-notes.py TransformInfiniteGrid
+root@container:# manim loop-transfo.py Symmetric 
 ```
 

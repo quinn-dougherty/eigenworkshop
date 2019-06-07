@@ -99,7 +99,7 @@ class Diagonalizable2(LoopDecomp):
 
 
 
-       
+'''
 class TransformInfiniteGrid(LinearTransformationScene):
     ''' Currently keeping this because we want to reference text handling'''
     CONFIG = {
@@ -157,3 +157,4 @@ class TransformInfiniteGrid(LinearTransformationScene):
             run(defective, lag_order=lo)
             if p == 0:
                 self.play(FadeOut(title))
+'''
